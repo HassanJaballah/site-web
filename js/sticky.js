@@ -1,0 +1,2 @@
+var offset=$("#form-wrapper").offset();var sticky=document.getElementById("form-wrapper")
+$(window).scroll(function(){if($('body').scrollTop()>offset.top){$('#form-wrapper').addClass('fixed');$('.wld-error-overlay').addClass('fixed-wld-error');}else{$('#form-wrapper').removeClass('fixed');$('.wld-error-overlay').removeClass('fixed-wld-error');}});
